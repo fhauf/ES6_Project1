@@ -1,0 +1,39 @@
+#newUserDiv {
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    padding: 20px;
+    width: 200px;
+}
+
+#loginDiv {
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    padding: 20px;
+    width: 200px;
+}
+
+.submitButton {
+     margin-left:35%;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#welcome {
+    left: 500px;
+}
+
+#btn_div {
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    padding: 20px;
+    width: 125px;
+}

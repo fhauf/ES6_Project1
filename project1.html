@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" type="text/css" href="project1style.css">
+    </head>
+    <body>
+           <container>
+                <div id="welcome">
+                   <h1>To Do List</h1>
+                   <h3>Welcome to the To Do List page. Where all of your do it yourself dreams come true!</h3>
+                   <br>
+                   <div id="btn_div">
+                       <button id="signUp">Sign Up</button>
+                       <button id="userLogin">Log In</button>
+                    </div>
+                </div>
+                <div id="newUserDiv">
+                    <form name="signUpForm" onsubmit="return validateNewUser()">
+                        <h3>Sign Up</h3><br>
+                        <label>First Name:</label><br>
+                        <input type="text" id="fName"><br>
+                        <label>Last Name:</label><br>
+                        <input type="text" id="lName"><br>
+                        <label>Email Address:</label><br>
+                        <input type="text" id="emailAddress"><br>
+                        <label>Password:</label><br>
+                        <input type="password" id="password"><br>
+                        <label>Confirm Password:</label><br>
+                        <input type="password" id="confirmPassword"><br>
+                        <label>I agree to the Terms of Use</label>
+                        <input type="checkbox" id="agreeTerms"><br><br>
+                        <input type="submit" id="newUserSubmit" class="submitButton"><br>
+                    </form>
+                </div>
+                <div id="loginDiv">
+                    <form>
+                        <h3>Login</h3><br>
+                        <label>Email Address:</label><br>
+                        <input type="text" id="loginEmailAddress"><br>
+                        <label>Password:</label><br>
+                        <input type="password" id="loginPassword"><br><br>
+                        <input type="submit" id="existingUserSubmit" class="submitButton"><br>
+                    </form>
+                </div>
+            </container>
+    </body>
+    <script src="project1.js"></script>
+</html>
