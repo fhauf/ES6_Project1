@@ -37,3 +37,27 @@ h1 {
     padding: 20px;
     width: 125px;
 }
+
+#createToDoList {
+    margin: 25px;
+}
+
+#toDoListActions {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 18px;
+}
+
+#dashboard {
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    padding: 20px;
+    width: 200px;
+}
