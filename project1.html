@@ -16,32 +16,52 @@
                     </div>
                 </div>
                 <div id="newUserDiv">
-                    <form name="signUpForm" onsubmit="return validateNewUser()">
+                    <form name="signUpForm" id="signUpForm">
                         <h3>Sign Up</h3><br>
                         <label>First Name:</label><br>
                         <input type="text" id="fName"><br>
                         <label>Last Name:</label><br>
                         <input type="text" id="lName"><br>
                         <label>Email Address:</label><br>
-                        <input type="text" id="emailAddress"><br>
+                        <input type="text" id="newEmailAddress"><br>
                         <label>Password:</label><br>
-                        <input type="password" id="password"><br>
+                        <input type="password" id="newPassword"><br>
                         <label>Confirm Password:</label><br>
                         <input type="password" id="confirmPassword"><br>
                         <label>I agree to the Terms of Use</label>
                         <input type="checkbox" id="agreeTerms"><br><br>
-                        <input type="submit" id="newUserSubmit" class="submitButton"><br>
+                        <input type="submit" id="newUserSubmit" class="submitButton"><br><br>
+                        <label class="errorMessage">Error</label>
                     </form>
                 </div>
                 <div id="loginDiv">
-                    <form>
+                    <form name="logInForm" id="logInForm">
                         <h3>Login</h3><br>
                         <label>Email Address:</label><br>
                         <input type="text" id="loginEmailAddress"><br>
                         <label>Password:</label><br>
                         <input type="password" id="loginPassword"><br><br>
-                        <input type="submit" id="existingUserSubmit" class="submitButton"><br>
+                        <input type="submit" id="existingUserSubmit" class="submitButton"><br><br>
+                        <label class="errorMessage">Error</label>
                     </form>
+                </div>
+                <div id="dashboard">
+                    <h3>Your Dashboard</h3>
+                    <ul id="dashboardList">
+                    </ul>
+                    <div id="createNewList">
+                       <button id="createToDoList">Create New To-Do List</button>
+                    </div>
+                </div>
+                <div id ="editList">
+                    <h3 id="listNameLabel">To Do List</h3>
+                    <ul id="toDoList">
+                    </ul>
+                    <div id="toDoListActions">
+                       <button id="renameList">Rename List</button>
+                       <button id="addItemToList">Add Item</button>
+                       <button id="saveList">Save Changes</button>
+                    </div>
                 </div>
             </container>
     </body>
